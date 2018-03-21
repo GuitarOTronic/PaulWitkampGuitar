@@ -1,0 +1,36 @@
+.musicContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.songContainer{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding: 1rem;
+  align-self: center;
+
+}
+
+@media(min-width:320px){
+  .songContainer{
+    padding: 0;
+    flex-direction: column;
+  }
+  .song{
+    padding: 1rem 0;
+  }
+}
+@media (min-width:768px){
+  .songContainer{
+    flex-direction: row;
+    display: flex;
+    width: 80vw;
+    flex-wrap: wrap;
+  }
+  .song{
+    padding:1rem;
+    display: flex;
+  }
+}

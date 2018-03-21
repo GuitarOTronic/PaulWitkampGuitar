@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+button:hover {
+  cursor: pointer;
+}
+.block{
+  display: block;
+}
+.centerText{
+  margin: 0 auto;
+
+}
+.centerDiv{
+  display: flex;
+  justify-content:  center;
+}
+
+.flex{
+  display:flex;
+}
+.spaceBetween{
+  justify-content: space-between;
+}
+.mainContainer{
+  min-height: 100vh;
+  background-image: url('./pics/bgPattern.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.pad{
+  padding:1rem;
+}
