@@ -26,7 +26,7 @@ class App extends Component {
   }
 
   submitBecomeStudentForm = async (formInfo) => {
-    await axios.post(`http://localhost:2999/newStudent`, formInfo).then(response => {
+    await axios.post(`http://http://18.188.67.113:8080/newStudent`, formInfo).then(response => {
       console.log(response);
     })
 
