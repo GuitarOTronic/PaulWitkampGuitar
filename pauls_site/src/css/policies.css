@@ -37,6 +37,9 @@
 
 }
 
+.contactContainer{
+  text-align: center;
+}
 .neighborhoodContainer li{
   line-height: 1.3rem;
   list-style: none;

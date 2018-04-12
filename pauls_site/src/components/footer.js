@@ -8,7 +8,7 @@ class Footer extends Component{
       <footer className='footer'>
 
         <div className='footerNav'>
-          <p><b>Witkamp Guitar Lessons</b> • (555)555-5555 </p>
+          <p><b>Witkamp Guitar Lessons</b> • (312) 945-7872  </p>
           <h6>© 2018</h6>
         </div>
       </footer>

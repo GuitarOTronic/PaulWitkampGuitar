@@ -24,6 +24,12 @@ class Policies extends Component {
     return(
       <div className='policiesContainer'>
         <div className='pricingContainer'>
+          <div className='contactContainer'>
+            <h1>Contact</h1>
+            <p>Email: WitkampGuitarLessons@gmail.com</p>
+            <p>Phone: (312) 945-7872</p>
+            <hr></hr>
+          </div>
           <h1>Pricing</h1>
           <div className='flex spaceBetween'>
             <h4>Home-Studio:</h4>
